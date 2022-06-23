@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font google */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden ;
+}
+.pl-7rem{
+    padding-left: 7rem;
+}
+.mt-100{
+    margin-top: 100px;
+}
+nav a {
+    font-weight: bold;
+}
+
+#header{
+    background-color: #d9ddee;
+}
+.pd-100{
+    padding-top: 120px;
+}
+.faw{
+    background-color: #AEB7E1;
+    color: #091B6F;
+    padding: 4px;
+    margin-right: 12px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.fs-16{
+    font-size: 1.1em;
+}
+.rounder{
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    padding: 12px;
+    color: #fff;
+}
+.bg-blue{
+    background-color: #0D28A6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.p-top{
+    padding-top: 6rem;
+}
+.fs-icon{
+    font-size: 1.2em;
+}
+.border-radius{
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    background-color: #0D28A6;
+}
+.star i{
+    color: yellow;
+}
+@media only screen and (max-width: 320px) {
+    .pl-7rem{
+       margin-left: -1.5rem;
+        text-align: center;
+    }
+    .text-sm{
+        font-size: 14px;
+    }
+    .star{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .pl-7rem{
+      margin-left: -1.5rem;
+      text-align: center;
+    }
+    .star{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .pl-7rem{
+        margin-left: -1.5rem;
+        margin-right: 1.5rem;
+        text-align: center;
+    }
+    .star{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* header */
+    .pl-7rem{
+        padding-left: 40px;
+    }
+    .img-car{
+       padding-left: 4.5rem;
+    }
+    /* service */
+    .pd-sm{
+        margin-top: -6rem;
+    }
+    .kategori h2{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (max-width:1024px){
+    .pl-7rem{
+        padding-left: 40px;
+    }
+}
